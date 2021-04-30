@@ -4,7 +4,7 @@ configure :test do
     encoding: 'utf8',
     database: 'onebitbot_test',
     pool: 5,
-    username: 'postgres',
+    username: 'matheuspuppe',
     host: 'postgres'
   }
 end
@@ -15,7 +15,7 @@ configure :development do
     encoding: 'utf8',
     database: 'onebitbot_development',
     pool: 5,
-    username: 'postgres',
-    host: 'postgres'
+    username: 'matheuspuppe',
+    host: 'matheuspuppe'
   }
 end
